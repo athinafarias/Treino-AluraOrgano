@@ -1,0 +1,33 @@
+.dropdown-list {
+    margin: 24px 0;
+}
+
+.dropdown-list label {
+    display: block;
+    margin-bottom: 8px;
+
+    color: #212121;
+    font-size: 18px;
+    font-style: normal; 
+    font-weight: 600;
+    line-height: normal;
+}
+
+.dropdown-list select {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    
+    background: #FFF;
+    box-shadow: 10px 10px 30px 0px #0000000f;
+    color: #0000008e;
+
+    width: 100%;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.dropdown-list select:hover, .dropdown-list select:checked {
+    outline: solid 1px #6278F7;
+    box-shadow: 10px 10px 30px 0px #94b6ff3f;
+}
